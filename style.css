@@ -402,3 +402,33 @@ section {
   }
 }
 /* Aturan tambahan bisa ditambahkan di sini */
+@media (max-width: 750px) {
+  .content {
+    flex-direction: column-reverse; /* Ubah tata letak menjadi kolom dengan .info di atas */
+    gap: 15px; /* Sesuaikan jarak antar elemen */
+  }
+
+  .info {
+    max-width: 100%; /* Mengisi lebar layar penuh */
+    text-align: center; /* Pusatkan teks */
+    padding: 0 20px; /* Atur padding */
+  }
+
+  .swiper {
+    width: 100%; /* Mengisi lebar layar penuh */
+    height: auto; /* Sesuaikan ketinggian secara otomatis */
+    padding: 20px 0; /* Atur padding */
+  }
+
+  .swiper-slide {
+    width: 100%; /* Mengisi lebar layar penuh */
+    height: auto; /* Sesuaikan ketinggian secara otomatis */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sesuaikan bayangan */
+    border-radius: 10px; /* Sesuaikan radius sudut */
+  }
+
+  .btn {
+    margin: 10px auto 40px;
+  }
+}
+
